@@ -5,6 +5,8 @@ body {
     background-color: #f5f6fa;
     color: #333;
     text-align: center;
+    font-size: 16px; /* increased base font size */
+    line-height: 1.6; /* good line spacing */
 }
 
 header {
@@ -31,16 +33,25 @@ main {
     max-width: 800px;
     margin: 0 auto;
     text-align: left;
+    font-size: 16px; /* ensure minimum font size */
+    line-height: 1.6; /* consistent line height */
 }
 
 .content h2 {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px; /* space below headings */
     color: #357abd;
 }
 
 .content p {
-    line-height: 1.6;
-    margin-bottom: 15px;
+    line-height: 1.7; /* slightly more for paragraphs */
+    margin-bottom: 20px; /* more space after paragraphs */
+}
+
+.content ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8; /* better line spacing for lists */
 }
 
 .buttons {
@@ -67,7 +78,7 @@ main {
 
 footer {
     padding: 20px;
-    font-size: 0.9rem;
+    font-size: 1rem; /* larger font in footer */
     background-color: #eaeaea;
     color: #666;
     margin-top: 40px;

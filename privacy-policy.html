@@ -30,13 +30,14 @@
                 <li><strong>Receipt Numbers:</strong> Our Service collects USCIS receipt numbers that you enter in order to use the USCIS API and track your case status updates. Because these numbers are unique to your case, they are treated as Personally Identifiable Information (PII).</li>
                 <li><strong>Optional Case Names:</strong> You may assign custom names or labels to your cases to help you organize them on your device.</li>
                 <li><strong>Device storage metadata:</strong> local storage information needed to save cases on your device (no server-side logs).</li>
+                <li><strong>Firebase Anonymous ID:</strong> We use Firebase Authentication to provide secure access to the app. This generates an anonymous identifier that is not linked to personal information.</li>
             </ul>
             <p><strong>We do not collect:</strong> names, addresses, Social Security Numbers, geolocation, financial information, health/medical data, or your contacts.</p>
 
             <h2>How We Use Your Information</h2>
             <ul style="line-height:1.8; margin-left:20px;">
                 <li>To fetch and display USCIS case status updates using the receipt numbers you provide.</li>
-                <li>Receipt numbers are only used to make requests to the official USCIS case status service and are not shared with third parties.</li>
+                <li>Receipt numbers and anonymous identifiers are used only for the functionality of the app and are not shared with third parties.</li>
                 <li>To allow you to save, view, and manage the cases you enter on your device.</li>
                 <li>To respond to your support or privacy requests when you contact us.</li>
             </ul>
@@ -45,10 +46,10 @@
             <p>All case information you enter is stored locally on your device using Apple’s standard local storage mechanisms (e.g., UserDefaults). We do not maintain any server-side or cloud copies of your saved case data unless you explicitly export or share it yourself.</p>
 
             <h2>Third-Party Services</h2>
-            <p>Our Service fetches case status updates directly from USCIS. We do not include analytics, advertising, or tracking SDKs in the current release. If this changes, we will disclose the services and obtain any required consents.</p>
+            <p>Our Service fetches case status updates directly from USCIS and uses Google services such as Firebase Authentication, Firebase Analytics, and Google Cloud APIs to provide functionality. Firebase Analytics collects anonymized usage data to help us improve the app. We do not include advertising or other tracking SDKs in the current release. If this changes in the future, we will disclose the services and obtain any required consents.</p>
 
             <h2>Data Sharing</h2>
-            <p>We do not sell, rent, or trade personal data for profit or other monetary consideration. We will only share data when required by law or with your explicit consent.</p>
+            <p>We do not sell, rent, or trade personal data for profit or other monetary consideration. The only data shared with third-party services is anonymized usage data collected through Firebase Analytics, which is used solely to improve the app. We will only share personal data when required by law or with your explicit consent.</p>
             
             <h2>User Rights and Choices</h2>
                 <ul style="line-height:1.8; margin-left:20px;">
